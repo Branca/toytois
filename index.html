@@ -36,10 +36,10 @@
     }
 
     .logo {
-  height: 60px;
-  max-width: 200px;
-  margin-bottom: 0.5rem;
-}
+      height: 60px;
+      max-width: 200px;
+      margin-bottom: 0.5rem;
+    }
 
     main {
       max-width: 1000px;
@@ -74,10 +74,18 @@
       flex: 1 1 280px;
       max-width: 300px;
       transition: transform 0.3s ease;
+      text-align: center;
     }
 
     .card:hover {
       transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 1rem;
     }
 
     .card h3 {
@@ -90,27 +98,27 @@
       color: #666;
     }
 
-   footer {
-  background: #1e1e2f;
-  color: white;
-  padding: 3rem 1rem;
-  text-align: center;
-}
+    footer {
+      background: #1e1e2f;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
 
-.footer-content p {
-  font-size: 1rem;
-  color: #ccc;
-  margin: 0.5rem 0;
-}
+    .footer-content p {
+      font-size: 1rem;
+      color: #ccc;
+      margin: 0.5rem 0;
+    }
 
-.footer-content a {
-  color: #00bfff;
-  text-decoration: none;
-}
+    .footer-content a {
+      color: #00bfff;
+      text-decoration: none;
+    }
 
-.footer-content a:hover {
-  text-decoration: underline;
-}
+    .footer-content a:hover {
+      text-decoration: underline;
+    }
 
     footer p {
       font-size: 0.9rem;
@@ -145,25 +153,28 @@
 
     <div class="cards">
       <div class="card">
+        <img src="app.png" alt="Aplicativos Personalizados" />
         <h3>Aplicativos Personalizados</h3>
         <p>Projetamos apps intuitivos e eficientes para startups, empresas e criadores.</p>
       </div>
       <div class="card">
+        <img src="game.png" alt="Jogos Mobile" />
         <h3>Jogos Mobile</h3>
         <p>Criamos jogos com visual impactante e mecânicas que prendem a atenção do jogador.</p>
       </div>
       <div class="card">
-        <h3>Experiência & Qualidade</h3>
+        <img src="quality.png" alt="Experiência e Qualidade" />
+        <h3>Experiência &amp; Qualidade</h3>
         <p>Usamos tecnologias modernas para garantir performance e escalabilidade.</p>
       </div>
     </div>
   </main>
 
- <footer>
-  <div class="footer-content">
-    <p>&copy; 2025 Toytois. Todos os direitos reservados.</p>
-    <p>Contato: <a href="mailto:toytoisapps@gmail.com">toytoisapps@gmail.com</a></p>
-  </div>
-</footer>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Toytois. Todos os direitos reservados.</p>
+      <p>Contato: <a href="mailto:toytoisapps@gmail.com">toytoisapps@gmail.com</a></p>
+    </div>
+  </footer>
 </body>
 </html>
